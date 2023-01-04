@@ -11,14 +11,38 @@
             width: 100%;
             border: 2px solid black;
             display: flex;
+
+
+
+            /* flex properties for flex container */
+            /* default of flex direction is row; */
+
+            flex-direction: row;
+
+
+            /* flex-direction: column;
+            flex-direction: row-reverse;
+            flex-direction: column-reverse; */
+
+
+            flex-wrap: wrap;
+
+
+
+           
+            
+
+
         }
-        .item{
+        .item1, .item2,.item3,.item4,.item5,.item6{
             width: 200px;
             height: 200px;;
             background-color: tomato;
             border: 2px solid red;
             margin: 10px;
             padding: 3px;
+            order: 4;
+            flex-grow: 3;
 
             }
     </style>
@@ -28,12 +52,12 @@
     <div class="container">
 
     
-    <div class="item" id="item1">first box</div>
-    <div class="item" id="item2">second box</div>
-    <div class="item" id="item3">third box</div>
-    <div class="item" id="item4">forth box</div>
-    <div class="item" id="item5">fifth box</div>
-    <div class="item" id="item6">sixth boitem
+    <div class="item1">first box</div>
+    <div class="item2">second box</div>
+    <div class="item3">third box</div>
+    <div class="item4">forth box</div>
+    <div class="item5">fifth box</div>
+    <div class="item6">sixth box</div>
 </div>
 
 </body>
