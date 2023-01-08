@@ -17,3 +17,16 @@ div > p{
     font-weight: bold;
     background-color: aqua;
 }
+
+.BTN{
+
+    background-color: orange;
+}
+
+
+.BTN:hover{
+
+    color: brown;
+
+    text-shadow: 2PX 2PX blue;
+}
