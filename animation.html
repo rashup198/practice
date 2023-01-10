@@ -1,0 +1,80 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANIMATIONS</title>
+
+
+    <style>
+        .container{
+            background-color: yellowgreen;
+        }
+
+        .box{
+            background-color: green;
+            width: 250px;
+            height: 250px;
+            /* animation-name: rashu1; */
+            animation-name: rashu2;
+            animation-duration: 8s;
+            animation-iteration-count: infinite;
+            animation-fill-mode: alternate;
+            animation-direction: reverse;
+        }
+        
+        @keyframes rashu2{
+            0%{
+                top:0px;
+                left:0px;
+
+            }
+
+            25%{
+                top: 250px;
+                left: 0px;
+
+
+            }
+
+            75%{
+                top: 250px;
+                left: 250px;
+            }
+
+            100%{
+                top: 250px;
+                left: 250px;
+
+            }
+        
+        }
+        /* @keyframes rashu1 {
+            from{
+                width: 200px;
+
+            }
+            to{
+                width: 1500px;
+
+            } 
+            
+        } */
+
+            
+        
+    </style>
+ </head>
+ <body>
+    <div class="container">
+
+        <div class="box">
+            im a box
+
+        </div>
+
+    
+    </div>
+ </body>
+ </html>
